@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin-left:0;
+    margin-right:0;
+    padding: 20px;
+}
+h1 {
+   text-align: center;
+   font-size: 95%;
+   font-weight: bold;
+}
+.fish {
+   background-color: #EA8FFA;
+   text-align: center;
+   font-size: 75%;
+   width: 15%;
+   float: right;
+   height: 20px;
+   margin-right: 16px;
+   margin-top: 15px;
+   border: 2px solid black;
+}
+.vegestable {
+   background-color: #F5EB72; 
+   text-align: center;
+   font-size: 75%;
+   width: 20%;
+   float: right;
+   height: 20px;
+   margin-right: 16px;
+   margin-top: 15px;
+   border: 2px solid black;              
+}   
+.salad {
+   background-color: #5c72f0;
+   text-align: center;
+   font-size: 75%;
+   width: 15%;
+   float: right;
+   height: 20px;
+   margin-right: 16px;
+   margin-top: 15px;
+   border: 2px solid black;               
+} 
+p {
+   font-size: 60%;
+   padding: 30px 10px 10px 10px;
+   border: 2px solid black;
+   margin: 15px;
+   background-color: #5FF99E;
+}
+
+/************Desktop Niew Only***************/
+@media (min-width: 992px) { .col-lg-1, .col-lg-2, .col-lg-3 {
+       width: 33.33%;
+       float: left;
+   }
+}
+
+/************Tablet Niew Only***************/
+@media (min-width: 768px) and (max-width: 991px) { .col-md-1, .col-md-2, .col-md-3 {
+       float: left;
+    }
+    .col-md-1 {
+        width: 50%;
+    }
+    .col-md-2 {
+        width: 50%;
+    }
+    .col-md-3 {
+        width: 100%;
+    }
+    .fish {
+       width: 15%;
+    }
+}
+
+/************Tablet Niew Only***************/
+@media (max-width: 767px) { .col-sm-1, .col-sm-2, .col-sm-3 {
+    width: 100%;
+    }
+    .fish {
+       margin-top: 0;
+   }
+   .vegestable {
+       margin-top: 0;
+       width: 15%;
+   }
+   .salad {
+       margin-top: 0px;
+   }
+   p {
+       margin-top: 20px;
+   }
+}
